@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+body  {
+  transition-duration: 0.4s;
+}
+
+h1 {
+  text-align: center;
+  font-weight: bold;
+}
+
+.heading {
+  margin-top: 6rem;
+}
+
+.subheading {
+  text-align: center;
+  color: grey;
+}
+
+.searchBar {
+  background-color: #f2f2f2;
+}
+
+.searchBarDarkMode {
+  background-color: #222228;
+  color: #777777;
+  border: #1a1e21;
+}
+
+.searchBarWidth {
+  width: 30rem;
+}
+
+.darkMode {
+  color: #f7f7f7;
+  background-color: #151518;
+  transition-duration: 0.4s;
+}
+
+.darkModeButton {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+}
+
+.darkModeToggleButton {
+  color: #777777;
+  background-color: #222228;
+}
+
+@media only screen and (max-width: 768px) {
+  .searchBarWidth {
+    width: 15rem;
+  }
+}
