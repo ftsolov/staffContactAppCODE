@@ -39,6 +39,12 @@ h1 {
   border: #1a1e21;
 }
 
+.searchBarDarkMode:focus {
+  background-color: #222228;
+  color: #777777;
+  border: #1a1e21;
+}
+
 .searchBarWidth {
   width: 30rem;
 }
@@ -56,6 +62,11 @@ h1 {
 }
 
 .darkModeToggleButton {
+  color: #777777;
+  background-color: #222228;
+}
+
+.darkModeToggleButton:hover {
   color: #777777;
   background-color: #222228;
 }
