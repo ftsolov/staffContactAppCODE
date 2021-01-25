@@ -13,6 +13,8 @@ a {
 
 body  {
   transition-duration: 0.4s;
+  margin-left: 20%;
+  margin-right: 20%;
 }
 
 h1 {
@@ -22,6 +24,20 @@ h1 {
 
 .heading {
   margin-top: 6rem;
+}
+
+.headingStart {
+  top: 0;
+  visibility: hidden;
+  transition-duration: 0.6s;
+  opacity: 0;
+}
+
+.headingEnd {
+  top: 6rem;
+  visibility: visible;
+  transition-duration: 0.6s;
+  opacity: 1;
 }
 
 .subheading {
@@ -46,7 +62,7 @@ h1 {
 }
 
 .searchBarWidth {
-  width: 30rem;
+  max-width: 30rem;
 }
 
 .darkMode {
@@ -71,8 +87,8 @@ h1 {
   background-color: #222228;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   .searchBarWidth {
-    width: 15rem;
+    width: 20rem;
   }
 }

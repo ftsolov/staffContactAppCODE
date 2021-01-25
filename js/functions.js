@@ -8,3 +8,9 @@ function toggleDarkMode() {
     button.classList.toggle("btn-dark")
     button.classList.toggle("btn:hover")
 }
+
+function headingAnimation() {
+    let heading = document.getElementById("header")
+    console.log(heading)
+    heading.classList.replace("headingStart", "headingEnd")
+}
